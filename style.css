@@ -8,6 +8,10 @@ html, body {
     height: 100%;
 }
 
+body {
+    display: flex;
+}
+
 .aside-containter {
     background-image: url(./img/sidebarBack.jpg);
     background-size: cover;
@@ -51,4 +55,19 @@ html, body {
 
 .aside-credit a {
     color: #ffffffce;
+}
+
+.main {
+    padding: 0px 36px;
+}
+
+.header {
+    font-size: 22px;
+    margin-top: 150px;
+    margin-right: 95px;
+    font-weight: bold;
+}
+
+.header span {
+    font-style: italic;
 }
