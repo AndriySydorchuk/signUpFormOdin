@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -70,4 +71,52 @@ body {
 
 .header span {
     font-style: italic;
+}
+
+.header p:last-child {
+    margin-top: 20px;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.content p:first-child {
+    margin-bottom: 16px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+fieldset {
+    display: flex;
+    width: 500px;
+    border: 0;
+    gap: 100px;
+    margin-bottom: 22px;
+}
+
+fieldset div {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset label {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.95);
+}
+
+input {
+    border-radius: 4px;
+    padding: 4px;
+    border: 1px solid lightgray;
+}
+
+input:focus {
+    outline: none;
+    border-color: blue;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.274);
+}
+
+input:invalid {
+    border-color: red;
 }
