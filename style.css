@@ -107,7 +107,7 @@ fieldset label {
 
 input {
     border-radius: 4px;
-    padding: 4px;
+    padding: 6px;
     border: 1px solid lightgray;
 }
 
@@ -119,4 +119,41 @@ input:focus {
 
 input:invalid {
     border-color: red;
+}
+
+.signup-finish {
+    margin-top: 32px;
+}
+
+.create-btn {
+    border-radius: 6px;
+    padding: 10px 48px;
+    color: #fff;
+    background-color: rgba(1, 53, 1, 0.753);
+    border: 0;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+
+.create-btn:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.274);
+}
+
+.login-text,
+.login-link {
+    font-size: 16px;
+}
+
+.login-link {
+    color: rgba(1, 53, 1, 0.753);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
